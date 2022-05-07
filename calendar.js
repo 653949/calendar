@@ -7,11 +7,12 @@ const firstDate=new Date(year,month -1,1); // 先ほど'month'+1したので'mon
 const firstDay=firstDate.getDay();
 const lastDate=new Date(year,month,0);
 const lastDayCount=lastDate.getDate();
+const day=date.getDate();
 
 let dayCount=1;
 let createHtml='';
 
-createHtml='<h2>' + year + '/' + month + '</h2>'
+createHtml='<h2>' + year + '/' + month + '/' + day + '</h2>'
 createHtml+='<table border="2">'+'<tr>'; // +=で足し合わせる
 
 const weeks=['日','月','火','水','木','金','土'];
