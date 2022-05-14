@@ -8,7 +8,7 @@ const firstDay=firstDate.getDay();
 const lastDate=new Date(year,month,0);
 const lastDayCount=lastDate.getDate();
 const day=date.getDate();
-const days=['月','火','水','木','金','土'];
+const days=['日','月','火','水','木','金','土'];
 const today=(days[date.getDay()])
 
 
