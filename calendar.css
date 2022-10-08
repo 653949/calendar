@@ -1,7 +1,13 @@
 body{
     color:black;
+    text-align:center;
 }
 
 h2{
     color:black;
+}
+
+table{
+    margin:auto;
+    padding-top:0px;
 }
